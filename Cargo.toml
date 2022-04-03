@@ -1,0 +1,11 @@
+[package]
+name = "reproduce-used-linker-function"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = ["pretend-std"]
+
+[dependencies]
+pretend-std = { path = "pretend-std" }
+libc = "0.2.121"
